@@ -1,0 +1,46 @@
+{
+    "database.connectionsssh-remote": {
+        "1645634075341": {
+            "host": "localhost",
+            "dbPath": "",
+            "port": "33066",
+            "user": "root",
+            "authType": "default",
+            "password": "root",
+            "encoding": "utf8",
+            "clientKeyPath": null,
+            "clientCertPath": null,
+            "caPath": null,
+            "database": "admin",
+            "useSSL": false,
+            "useClearText": false,
+            "usingSSH": false,
+            "showHidden": false,
+            "includeDatabases": "mysql",
+            "dbType": "MySQL",
+            "encrypt": true,
+            "isCluster": false,
+            "connectionUrl": "",
+            "srv": false,
+            "esAuth": "none",
+            "global": false,
+            "key": "1645634075341",
+            "timezone": "+00:00",
+            "ssh": {
+                "host": "",
+                "privateKeyPath": "/home/ubuntu/.ssh/id_rsa",
+                "port": 22,
+                "username": "root",
+                "type": "privateKey",
+                "connectTimeout": 10000,
+                "algorithms": {
+                    "cipher": []
+                }
+            },
+            "name": "da",
+            "connectTimeout": "5000",
+            "socketPath": "",
+            "connectionKey": "database.connections"
+        }
+    }
+}
