@@ -1,14 +1,14 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "c7553b7d-c979-4e20-8601-3a66f06cef83"
+    "analytics": "515f1d50-2eee-4873-a572-b03b9231d891"
   },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "angular-admin": {
       "projectType": "application",
-      "schematics": {
+       "schematics": {  
          "@schematics/angular:component": {
           "skipTests": true
         },
@@ -17,8 +17,7 @@
         },
         "@schematics/angular:service": {
           "skipTests": true
-        }
-       },
+        }},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
