@@ -3,7 +3,6 @@ export class PaginatedResult {
     meta: {
         total: number,
         page: number,
-        last_page:number,
-
+        last_page: number
     }
 }

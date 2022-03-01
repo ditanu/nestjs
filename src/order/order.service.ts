@@ -3,8 +3,7 @@ import { AbstractService } from "../common/abstract.service";
 import { InjectRepository } from "@nestjs/typeorm";
 import { Order } from "./order.entity";
 import { Repository } from "typeorm";
-import { PaginatedResult } from 'src/common/paginated-result.interface';
-
+import { PaginatedResult } from "../common/paginated-result.interface";
 
 @Injectable()
 export class OrderService extends AbstractService {
@@ -16,7 +15,6 @@ export class OrderService extends AbstractService {
 
     async paginate(page = 1, relations = []): Promise<PaginatedResult> {
         const { data, meta } = await super.paginate(page, relations);
-
 
         return {
             data: data.map((order: Order) => ({
