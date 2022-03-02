@@ -8,6 +8,13 @@ import { ProfileComponent } from './profile/profile.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UsersComponent } from './users/users.component';
+import { UserCreateComponent } from './users/user-create/user-create.component';
+import { UserEditComponent } from './users/user-edit/user-edit.component';
+import { RolesComponent } from './roles/roles.component';
+import { RoleCreateComponent } from './roles/role-create/role-create.component';
+import { RoleEditComponent } from './roles/role-edit/role-edit.component';
+import { ProductsComponent } from './products/products.component';
+import { PaginatorComponent } from './components/paginator/paginator.component';
 
 
 
@@ -18,7 +25,14 @@ import { UsersComponent } from './users/users.component';
     SecureComponent,
     ProfileComponent,
     DashboardComponent,
-    UsersComponent
+    UsersComponent,
+    UserCreateComponent,
+    UserEditComponent,
+    RolesComponent,
+    RoleCreateComponent,
+    RoleEditComponent,
+    ProductsComponent,
+    PaginatorComponent
   ],
   imports: [
     CommonModule,
